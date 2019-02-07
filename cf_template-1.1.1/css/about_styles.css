@@ -1,0 +1,99 @@
+* { box-sizing: border-box; }
+
+.container_about {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.content{
+  padding: 40px; /*de parathrw se ola diafora, mono sta columns pou katevainoun */
+}
+nav{
+  position: fixed;
+  width: 100% !important; /*me to !important kaluptei olo to euros tis othonis, gia na kanw overwrite to width 80% pou exw orisei parapanw gia to container */
+  top: 0; /*gia na einai panw panw */
+  left: 0; /*gia na kollisei aristera */
+  background-color: #ff99cc;
+  font-weight: 900;
+  padding:20px;
+  z-index: 50000;
+}
+nav a{
+  color: #944dff;
+  font-weight: 700;
+}
+nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms; /*gia na to ktlv kai alloi browsers i.e. safari */
+  -moz-transition: color 600ms; /*gia na douleuei kai se Firefox */
+  color: white; /*gt den allazoun xrwma ta grammata na ginoun leuka? */
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  font-weight: 900; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+}
+.header h1 {
+  text-align: center;
+  position:fixed; /*otan scrollarw menei to About me stin othoni stathero*/
+  left:40%;
+  top:60px;
+}
+.column {
+  display: inline-block;
+  float: left;
+}
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+.column {
+  width: 33.33333333333333%;
+}
+.header {
+  margin-bottom: 40px;
+}
+.img {
+  position: static; /*mallon einai peritto, gt de vlepw allagi*/
+  width: 100%;
+}
+#skill-list {  /*to ul element exei id k to epilegw me # */
+  margin-left: 50px;
+}
+/*Typography*/
+h1,
+h2,
+h3 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+p,
+li{
+  font-family: Georgia,Times,"Times New Roman",serif;
+}
+.intro p {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  font-weight: 100; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+  -webkit-margin-before: 0;
+}
+.skill h3{
+  text-align: center;
+  text-transform: uppercase;
+}
+.header h1{
+  font-family: "Lobster",serif;
+/*  text-shadow: 10px 10px 10px 10px; gt de vlepw diafora sti skiasi?*/
+}
+body {
+  background-color: #fffeea;
+  color: #34495e; /*text color*/
+}
+.skill{
+  background-color: #5AD4C2;
+  color:#34495e;
+}

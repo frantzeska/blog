@@ -1,0 +1,283 @@
+/*****************************************/
+/**************INDEX PAGE*****************/
+/****************************************/
+/*.jumbotron.home{
+  background-image: url("../img/landscape.jpg");
+  background-size: cover;
+}
+.jumbotron.home p{
+  color: white;
+}*/
+* { box-sizing: border-box;}
+a.navbar-brand{
+  color:#CCCC99 !important;/*#ff99cc  rozaki*/
+  font-size: 1em;
+  font-weight: 700;
+}
+/*nav{
+  position: fixed;
+  width: 100% !important; /*me to !important kaluptei olo to euros tis othonis, gia na kanw overwrite to width 80% pou exw orisei parapanw gia to container */
+  /*top: 0; /*gia na einai panw panw */
+  /*left: 0; /*gia na kollisei aristera */
+  /*background-color: #ff99cc;
+  font-weight: 900;
+  padding:1.25em; /*20px*/
+  /*z-index: 50000;
+}
+nav a{
+  color: #944dff;
+  font-weight: 700;
+}
+/*nav a:hover { /*otan phgainei o kersoras */
+  /*color: #ff0;
+  text-decoration: none;
+  transition: color 600ms; /*smooth & natural effect */
+  /*-webkit-transition: color 600ms; /*gia na to ktlv kai alloi browsers i.e. safari */
+  /*-moz-transition: color 600ms; /*gia na douleuei kai se Firefox */
+  /*color: white;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  /*font-weight: 900; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+/*}*/
+.btn-primary{
+  background-color: #9999CC;
+  border-color: #9999CC;
+}
+#carouselExampleIndicators{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  -moz-position: relative;
+  -webkit-position: relative;
+ }
+.carousel-caption{
+  background: rgba(0,0,0,0.3); /*gia na valw background*/
+}
+.carousel-caption h2{
+  color: #fff; /*#944dff; einai to mwvaki*/
+  font-weight: 900;
+  padding: 0%;
+  font-family: "Lobster",serif;
+  position: relative;
+  z-index: 20;
+}
+.carousel-caption h3{
+  color: #fff; /*#944dff; mwvaki*/
+  font-weight: 900;
+  padding: 0%;
+  font-family: "Lobster",serif;
+  position: relative;
+  z-index: 20;
+}
+/****************work****************/
+.container-format{ /* Bootstrap uses a class with the exact same name"container"and giving it your own styling might mess up your layout*/
+  margin: 0 auto;
+  padding: 1.25em; /*=20px*/
+}
+.container-work, .container-about, .container-contact{
+width: 80%;
+}
+/*.work img{
+    display: block;
+    margin-top: 6%;
+    position: relative;
+    padding: 1%;
+    border: 4px solid transparent; /*gia na min kanoun jump oi eikones*/
+    /*transition: border 0.3s;
+}
+.work img:hover{
+    border: 4px solid #ff99cc;
+}*/
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+  margin-top: 6%;
+  padding: 1%;
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color: #000;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  display: none;
+}
+
+.proj-title { font-weight:100; }
+/***********************************************/
+/***ABOUT PAGE (previous about_styles.css)***/
+/***********************************************/
+body{
+  background-image: url("../img/retro-background.jpg");
+  background-size: cover;
+  position: relative;
+}
+#profilePicture{
+  width:100%;
+}
+#skillList{  /*to ul element exei id k to epilegw me # */
+  margin-left: 50px;
+  background-color: #9999CC;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  font-weight: 100; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+  -webkit-margin-before: 0;
+}
+.main-text p{
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  font-weight: 100; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+  -webkit-margin-before: 0;
+}
+#introduction p{
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  font-weight: 100; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+  -webkit-margin-before: 0;
+}
+/***********************************************/
+/***CONTACT PAGE (previous about_contact.css)***/
+/***********************************************/
+
+/*nav{
+  position: fixed;
+  width: 100% !important; /*me to !important kaluptei olo to euros tis othonis, gia na kanw overwrite to width 80% pou exw orisei parapanw gia to container */
+  /*top: 0; /*gia na einai panw panw */
+  /*left: 0; /*gia na kollisei aristera */
+  /*background-color: #ff99cc;
+  font-weight: 900;
+  padding:1.25em; /*=20px*/
+  /*z-index: 50000;
+}
+nav a{
+  color: #944dff;
+  font-weight: 700;
+}
+/*nav a:hover { /*otan phgainei o kersoras */
+/*  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms; /*smooth & natural effect */
+/*  -webkit-transition: color 600ms; /*gia na to ktlv kai alloi browsers i.e. safari */
+/*  -moz-transition: color 600ms; /*gia na douleuei kai se Firefox */
+/*  color: white;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+/*  font-weight: 900; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+/*}*/
+.header h1{
+  text-align: center;
+  /*position:fixed; *//*otan scrollarw menei to About me stin othoni stathero*/
+  /*left:40%;*/ /*gia na einai sti mesi, dioti dilwsame arxika width 80% */
+  top: 60px;
+  font-family: "Lobster",serif;
+}
+.details{
+  font-weight: 700; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+  font-size: 1.25em; /*=20px*/
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  background: rgba(153, 153, 204, 0.8);
+  padding: 15px;
+}
+.column{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.25em;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  padding-top: 2.5em;
+}
+.image img{
+  position: static; /*mallon einai peritto, gt de vlepw allagi*/
+  width: 75%;
+}
+#contact{
+    background-image: url("../img/contactbackground.jpg"); /*Add a background image*/
+    /*padding-top: 50px 100px 100px 100px;*/
+    background-attachment: fixed; /*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover; /*Have the background cover the entire div section*/
+}
+#map {
+  height: 300px;
+  width: 100%;
+}
+/***********************************************/
+/******************FAQ PAGE********************/
+/***********************************************/
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.content{
+  padding: 2.5em;
+}
+nav{
+  position: fixed;
+  width: 100% !important; /*me to !important kaluptei olo to euros tis othonis, gia na kanw overwrite to width 80% pou exw orisei parapanw gia to container */
+  top: 0; /*gia na einai panw panw */
+  left: 0; /*gia na kollisei aristera */
+  background-color: #ff99cc;
+  font-weight: 900;
+  padding:1.25em; /*=20px*/
+  z-index: 50000;
+}
+nav a{
+  color: #944dff;
+  font-weight: 700;
+}
+nav a:hover{ /*otan phgainei o kersoras */
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms; /*smooth & natural effect */
+  -webkit-transition: color 600ms; /*gia na to ktlv kai alloi browsers i.e. safari */
+  -moz-transition: color 600ms; /*gia na douleuei kai se Firefox */
+  color: white;
+  font-size: 1em; /*ekane terastia ta grammata dioti 1em=16px */
+  /*font-weight: 900; /*exei na kanei me to poso entona einai ta grammata, to max einai to 900*/
+}
+#accordion{
+  z-index: 5000;
+  top: 0;
+  left: 0;
+}
+.container-accordion{
+  text-align: center;
+}
+/*.header_faq h1 {
+  text-align: center;
+  /*position:fixed; /*otan scrollarw menei to About me stin othoni stathero*/
+  /*left:30%;*/
+  /*top:60px;
+  font-family: "Lobster",serif;
+ }*/
+.card{
+  background-image: url("../img/retro-background.jpg");
+  background-size: cover;
+}
+.card-body{
+  font-size: 15px;
+}
+.btn{
+    white-space: normal;
+} /*fixes accordion button overflow*/
+@media (min-width: 768px){  /*to modal button na paei sta deksia on desktops and stack on mobile*/
+  .modal-button button{
+    float: right;
+  }
+}
+#modalembed{
+  height: 700px;
+  width: 100%;
+}
+.footer a:active{
+  color: #ff0000;
+}
